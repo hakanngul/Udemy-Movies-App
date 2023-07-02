@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		AEC58E6E2A517783005A6204 /* Udemy_Movies_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E6D2A517783005A6204 /* Udemy_Movies_AppApp.swift */; };
-		AEC58E702A517783005A6204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E6F2A517783005A6204 /* ContentView.swift */; };
+		AEC58E702A517783005A6204 /* MoviesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E6F2A517783005A6204 /* MoviesPage.swift */; };
 		AEC58E722A517785005A6204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC58E712A517785005A6204 /* Assets.xcassets */; };
 		AEC58E752A517785005A6204 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC58E742A517785005A6204 /* Preview Assets.xcassets */; };
+		AEC58E7C2A5177F3005A6204 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E7B2A5177F3005A6204 /* Category.swift */; };
+		AEC58E7E2A517879005A6204 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E7D2A517879005A6204 /* Director.swift */; };
+		AEC58E802A5178B8005A6204 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E7F2A5178B8005A6204 /* Movie.swift */; };
+		AEC58E822A51794E005A6204 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E812A51794E005A6204 /* MovieItem.swift */; };
+		AEC58E842A518316005A6204 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E832A518316005A6204 /* MovieDetail.swift */; };
+		AEC58E882A51E778005A6204 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E872A51E778005A6204 /* Anasayfa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEC58E6A2A517783005A6204 /* Udemy-Movies-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy-Movies-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC58E6D2A517783005A6204 /* Udemy_Movies_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Movies_AppApp.swift; sourceTree = "<group>"; };
-		AEC58E6F2A517783005A6204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEC58E6F2A517783005A6204 /* MoviesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPage.swift; sourceTree = "<group>"; };
 		AEC58E712A517785005A6204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEC58E742A517785005A6204 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEC58E7B2A5177F3005A6204 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AEC58E7D2A517879005A6204 /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		AEC58E7F2A5178B8005A6204 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AEC58E812A51794E005A6204 /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
+		AEC58E832A518316005A6204 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		AEC58E872A51E778005A6204 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				AEC58E6D2A517783005A6204 /* Udemy_Movies_AppApp.swift */,
-				AEC58E6F2A517783005A6204 /* ContentView.swift */,
+				AEC58E6F2A517783005A6204 /* MoviesPage.swift */,
+				AEC58E872A51E778005A6204 /* Anasayfa.swift */,
+				AEC58E832A518316005A6204 /* MovieDetail.swift */,
+				AEC58E7B2A5177F3005A6204 /* Category.swift */,
+				AEC58E7D2A517879005A6204 /* Director.swift */,
+				AEC58E7F2A5178B8005A6204 /* Movie.swift */,
+				AEC58E812A51794E005A6204 /* MovieItem.swift */,
 				AEC58E712A517785005A6204 /* Assets.xcassets */,
 				AEC58E732A517785005A6204 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC58E702A517783005A6204 /* ContentView.swift in Sources */,
+				AEC58E702A517783005A6204 /* MoviesPage.swift in Sources */,
+				AEC58E842A518316005A6204 /* MovieDetail.swift in Sources */,
+				AEC58E7E2A517879005A6204 /* Director.swift in Sources */,
 				AEC58E6E2A517783005A6204 /* Udemy_Movies_AppApp.swift in Sources */,
+				AEC58E822A51794E005A6204 /* MovieItem.swift in Sources */,
+				AEC58E7C2A5177F3005A6204 /* Category.swift in Sources */,
+				AEC58E882A51E778005A6204 /* Anasayfa.swift in Sources */,
+				AEC58E802A5178B8005A6204 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
